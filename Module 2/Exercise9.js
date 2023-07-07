@@ -1,0 +1,9 @@
+
+
+function filterEvenNumbers (...numbers)
+{
+    return numbers.filter((n) => n %2===0)
+}
+
+console.log(filterEvenNumbers(...[1, 2, 3, 4, 5]))
+
