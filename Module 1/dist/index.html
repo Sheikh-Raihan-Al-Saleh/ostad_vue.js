@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="/assets/index-ef71e5d4.css">
+</head>
+<body>
+  <section class="content">
+    <div class="container-fluid">
+      <div class="card p-5 mt-5">
+          <div class="card-header">
+              <h1 class="text-center mb-4 card-title">Weather Forecast</h1>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6 offset-md-3">
+                <div class="input-group mb-3">
+                  <label for="location" class="input-group-text">City Name:</label>
+                  <input type="text" id="location" class="form-control" placeholder="Enter City Name" style="background-color: whitesmoke">
+                  <button id="Submit" class="btn btn-success" type="button">Submit</button>
+                </div>
+                
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 offset-md-3">
+                <div id="weatherInfo" class="mt-4" style="background-color:whitesmoke"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
